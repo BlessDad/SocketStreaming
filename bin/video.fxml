@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.media.MediaView?>
+
+<AnchorPane minHeight="360.0" minWidth="640.0" prefHeight="160.0" prefWidth="100.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <SplitPane dividerPositions="0.8724798387096775" layoutX="121.0" layoutY="86.0" orientation="VERTICAL" prefHeight="398.4" prefWidth="456.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <items>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <ImageView fx:id="imageView" fitHeight="360.0" fitWidth="640.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@audio.png" />
+                     </image>
+                  </ImageView>
+                  <MediaView fx:id="mediaView" fitHeight="360.0" fitWidth="640.0" preserveRatio="false" />
+               </children>
+            </AnchorPane>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" style="-fx-background-color: white;">
+               <children>
+                  <ButtonBar buttonMinWidth="50.0" prefHeight="40.0" prefWidth="200.0" style="-fx-background-color: white;">
+                     <buttons>
+                        <Button id="playBtn" fx:id="playBtn" mnemonicParsing="false" style="-fx-background-color: white;">
+                           <graphic>
+                              <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@playImg.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic></Button>
+                        <Button id="pauseBtn" fx:id="pauseBtn" mnemonicParsing="false" style="-fx-background-color: white;">
+                           <graphic>
+                              <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@pauseImg.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic></Button>
+                        <Button id="stopBtn" fx:id="stopBtn" mnemonicParsing="false" style="-fx-background-color: white;">
+                           <graphic>
+                              <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@stopImg.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic></Button>
+                     </buttons>
+                  </ButtonBar>
+                  <Button fx:id="muteBtn" layoutX="200.0" layoutY="1.0" mnemonicParsing="false" style="-fx-background-color: white;" />
+                  <Slider fx:id="volumeSlider" layoutX="423.0" layoutY="13.0" value="100.0" />
+                  <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="381.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@cancleNoise.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+         </items>
+      </SplitPane>
+   </children>
+</AnchorPane>
