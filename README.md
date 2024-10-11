@@ -1,7 +1,13 @@
 # Streaming App
 
-<img width="746" alt="image" src="https://github.com/user-attachments/assets/49a51d6d-87a5-44aa-8d21-ad9284a949d9">
-<img width="887" alt="image" src="https://github.com/user-attachments/assets/5db73574-6452-4f39-bb26-110b2bb7a0db">
-<img width="929" alt="image" src="https://github.com/user-attachments/assets/7854a48f-e05a-43d1-93a4-825e66ca3956">
-<img width="886" alt="image" src="https://github.com/user-attachments/assets/6cec55a3-193b-4a39-8d6d-c2f04d8e5d05">
-![Uploading image.png…]()
+
+<img width="919" alt="image" src="https://github.com/user-attachments/assets/72a103c8-eddc-4226-b17b-e6ca41ac9f32">
+
+<img width="928" alt="image" src="https://github.com/user-attachments/assets/118445f0-39a8-4f66-becb-422a5dae2d23">
+
+<img width="884" alt="image" src="https://github.com/user-attachments/assets/877c137b-18fe-42c6-bdc5-0bb405aa377f">
+
+
+<img width="927" alt="image" src="https://github.com/user-attachments/assets/dd01894c-7889-4b24-a9d4-6a8c21a15b5c">
+
+<img width="904" alt="image" src="https://github.com/user-attachments/assets/a052f3a4-95bc-4c2c-8760-77b29c8dd6a6">
